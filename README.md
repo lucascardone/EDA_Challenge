@@ -7,7 +7,7 @@
 </div>
 <div style="display: inline_block">
   <img align = "auto" height="300" width= "300" src="https://user-images.githubusercontent.com/89162737/170126118-2f98b09c-070f-4e05-83b2-f324937db91f.gif"/>
-  <img align = "top" height="150" width= "600" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucascardone&layout=compact&langs_count=7&theme=dark"/>
+  <img align = "top" height="150" width= "550" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucascardone&layout=compact&langs_count=7&theme=dark"/>
 </div>
 
 ## Testing
