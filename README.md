@@ -6,8 +6,8 @@
    <p align = "auto"><b>Netbeans 8.2 by <a href = "https://github.com/lucascardone">@LucasCardone.</a> This is an example of how the bot plays against itself:</b></p>
 </div>
 <div style="display: inline_block">
-  <img align = "auto" height="360" width= "360" src="https://user-images.githubusercontent.com/89162737/170126118-2f98b09c-070f-4e05-83b2-f324937db91f.gif"/>
-  <img align = "top" height="180" width= "600" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucascardone&layout=compact&langs_count=7&theme=dark"/>
+  <img align = "auto" height="260" width= "260" src="https://user-images.githubusercontent.com/89162737/170126118-2f98b09c-070f-4e05-83b2-f324937db91f.gif"/>
+  <img align = "top" height="80" width= "500" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucascardone&layout=compact&langs_count=7&theme=dark"/>
 </div>
 
 ## Testing
