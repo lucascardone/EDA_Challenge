@@ -24,3 +24,6 @@
 
 ## Function
 The functionality of the bot is based on the analysis of the board and the return of the best action, either with a move or a block with a wall and this is done asynchronously (does not take into account previous moves)
+
+## Thanks for reading 😃
+<imgh width = "50px" src = "https://img.shields.io/github/watchers/{lucascardone}/{EDA_Challenge}.svg"></img>
