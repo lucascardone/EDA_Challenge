@@ -51,4 +51,4 @@
 </div>
 
 <h2>Thanks for reading 😃</h2>
-<imgh width = "50px" src = "https://img.shields.io/github/watchers/{lucascardone}/{EDA_Challenge}.svg"></img>
+<img src = "https://img.shields.io/github/watchers/lucascardone/EDA_Challenge.svg"></img>
