@@ -1,7 +1,7 @@
-# Quoridor Bot
+<h1>Quoridor Bot</h1>
 <h3><a href = "https://es.wikipedia.org/wiki/Quoridor">Quoridor</a> bot developed for EDA nº6 (Engineering Development Academy) of the company <a href="https://es.wikipedia.org/wiki/Eventbrite">Eventbrite.</a></h3>
 
-## Author
+<h2>Author</h2>
 <div>
    <ul>
       <li><p><a href = "https://github.com/lucascardone"><b>@LucasCardone</b></a></p></li>
@@ -11,7 +11,7 @@
    </ul>   
 </div>
 
-## General
+<h2>General</h2>
 
 <p>
    The bot was programmed to be as clean and maintainable as possible over time. Due to this, the bot strategy is not its strong point, however, at the time it gave very good results.
@@ -24,7 +24,7 @@
   <img align = "top" height="150" width= "500" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucascardone&layout=compact&langs_count=7&theme=dark"/>
 </div>
 
-## Unit Test
+<h2>Unit Test</h2>
 <ul>
    <li><p><a href = "https://github.com/lucascardone/EDA_Challenge/tree/master/test/test">Go to test packages</a></p></li>
    <li><p>134 possible cases tested in total</p></li>
@@ -32,7 +32,7 @@
    <li><p>A 5x5 scale board was used for a better reading of them.</p></li>
 </ul>   
 
-## Connection and Download
+<h2>Connection and Download</h2>
 
 <div>
    <h4>Connection</h4>
@@ -41,7 +41,7 @@
    <p>Once the project is downloaded, to connect it to the WebSocket, you must add the dependencies that come within the project in the folder called <a href = "https://github.com/lucascardone/EDA_Challenge/tree/master/libraries">libraries.</a> These dependencies are added within the IDE in our "quoridorBot" project, where the .jar must be added in the libraries folder.</p>
 </div>   
 
-## Specs
+<h2>Specs</h2>
 
 <div>
    <h4>STRATEGY</h4>
@@ -50,5 +50,5 @@
    <p>The bot was developed in java because it is currently the only programming language that I know enough to carry out a project like this.</p>
 </div>
 
-## Thanks for reading 😃
+<h2>Thanks for reading 😃</h2>
 <imgh width = "50px" src = "https://img.shields.io/github/watchers/{lucascardone}/{EDA_Challenge}.svg"></img>
