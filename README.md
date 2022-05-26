@@ -1,4 +1,5 @@
 <h1>Quoridor Bot</h1>
+
 <h3><a href = "https://es.wikipedia.org/wiki/Quoridor">Quoridor</a> bot developed for EDA nº6 (Engineering Development Academy) of the company <a href="https://es.wikipedia.org/wiki/Eventbrite">Eventbrite.</a></h3>
 
 <h2>Author</h2>
@@ -16,9 +17,8 @@
 <p>
    The bot was programmed to be as clean and maintainable as possible over time. Due to this, the bot strategy is not its strong point, however, at the time it gave very good results.
 </p>
-<p>
-   This is an example of how the bot plays against itself:
-</p>   
+<p>This is an example of how the bot plays against itself:</p>   
+   
 <div style="display: inline_block">
   <img align = "auto" height="300" width= "300" src="https://user-images.githubusercontent.com/89162737/170126118-2f98b09c-070f-4e05-83b2-f324937db91f.gif"/>
   <img align = "top" height="150" width= "500" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucascardone&layout=compact&langs_count=7&theme=dark"/>
