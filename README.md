@@ -1,36 +1,54 @@
 # Quoridor Bot
-<h3>This project was carried out to create a bot capable of playing the board game: <a href = "https://es.wikipedia.org/wiki/Quoridor">"Quoridor"</a>. The code was written and tested in:</h3>
+<h3><a href = "https://es.wikipedia.org/wiki/Quoridor">Quoridor</a> bot developed for EDA nº6 (Engineering Development Academy) of the company <a href="https://es.wikipedia.org/wiki/Eventbrite">Eventbrite.</a></h3>
 
-<div style="display: inline_block">
-   <img align = "auto" src = "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
-   <p align = "auto"><b>Netbeans 8.2 by <a href = "https://github.com/lucascardone">@LucasCardone.</a> This is an example of how the bot plays against itself:</b></p>
+## Author
+<div>
+   <ul>
+      <li><p><a href = "https://github.com/lucascardone"><b>@LucasCardone</b></a></p></li>
+      <li><p>Developed and tested in: </p><img align = "auto" src = "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"></li>
+      <li><p><b>IDE:</b> Netbeans 8.2, do not download if your version is older than this.</p></li>
+      <li><p><a href = "https://github.com/lucascardone/EDA_Challenge/tree/master/libraries"><b>Dependencies: </b></a>javax.websocket-client-api-1.1, gson-2.9.0, lombok-1,18.24, tyrus-standalone-client-1.9</p></li>
+   </ul>   
 </div>
+
+## General
+
+<p>
+   The bot was programmed to be as clean and maintainable as possible over time. Due to this, the bot strategy is not its strong point, however, at the time it gave very good results.
+</p>
+<p>
+   This is an example of how the bot plays against itself:
+</p>   
 <div style="display: inline_block">
   <img align = "auto" height="300" width= "300" src="https://user-images.githubusercontent.com/89162737/170126118-2f98b09c-070f-4e05-83b2-f324937db91f.gif"/>
   <img align = "top" height="150" width= "500" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucascardone&layout=compact&langs_count=7&theme=dark"/>
 </div>
 
-## Testing
-- <a href = "https://github.com/lucascardone/EDA_Challenge/tree/master/test/test">Go to test packages</a>
-- 134 possible cases tested in total
-- The three tested classes of implementations have 100% coverage
-- A 5x5 scale board was used for better reading.
+## Unit Test
+<ul>
+   <li><p><a href = "https://github.com/lucascardone/EDA_Challenge/tree/master/test/test">Go to test packages</a></p></li>
+   <li><p>134 possible cases tested in total</p></li>
+   <li><p>The three tested classes of implementations have 100% coverage</p></li>
+   <li><p>A 5x5 scale board was used for a better reading of them.</p></li>
+</ul>   
 
-## Download and specs
+## Connection and Download
+
 <div>
-   <p>The dependencies for the bot to be online are in the <a href = "https://github.com/lucascardone/EDA_Challenge/tree/master/libraries">libraries folder</a>. Once the project is downloaded, these .jar dependencies must be added to the libraries folder within the project in netbeans</p>
-   <p>Reminder: the version in which the bot was created is netbeans 8.2, it will not work if you try to run it with older versions</p>
-   <p>The bot does not stand out for its strategic strength, it stands out for the time and dedication with which it was programmed to be as clean and maintainable as possible</p>
-   <p>The key to carrying out the project was to plan it on a single 17x17 board and gradually translate the movements into a smaller one. For the movements of the pawns, their position should be translated through the division by two of their row and column. While for the walls, one had to be subtracted and then divided by two for the conversion to be effective. My memory aids were the board below:</p>
-   
-</div><br>
-<div style = "display: inline_block">
-   <p><b>The light orange squares are where the wall hearts ('*') are found.</b></p>
-   <img src = "https://user-images.githubusercontent.com/89162737/170199086-6349a221-9198-41a3-9495-275bcdb8eb6f.jpg"></img>
-</div>
+   <h4>Connection</h4>
+   <p>For the connection, the <a href = "https://es.wikipedia.org/wiki/WebSocket"><b>WebSockets</b></a> were used.</p>
+   <h4>Download</h4>
+   <p>Once the project is downloaded, to connect it to the WebSocket, you must add the dependencies that come within the project in the folder called <a href = "https://github.com/lucascardone/EDA_Challenge/tree/master/libraries">libraries.</a> These dependencies are added within the IDE in our "quoridorBot" project, where the .jar must be added in the libraries folder.</p>
+</div>   
 
-## Function
-The functionality of the bot is based on the analysis of the board and the return of the best action, either with a move or a block with a wall and this is done asynchronously (does not take into account previous moves)
+## Specs
+
+<div>
+   <h4>STRATEGY</h4>
+   <p>The strategy implemented for the <b>Attack</b> was to take a pawn and move it to the point where it crowns or gets stuck, the latter was solved by moving another that was free. For <b>Defense</b>, the use of only horizontal walls was implemented with the function of delaying the enemy pawn and that this would give our pawn time to continue advancing.</p>
+   <h4>JAVA</h4>
+   <p>The bot was developed in java because it is currently the only programming language that I know enough to carry out a project like this.</p>
+</div>
 
 ## Thanks for reading 😃
 <imgh width = "50px" src = "https://img.shields.io/github/watchers/{lucascardone}/{EDA_Challenge}.svg"></img>
